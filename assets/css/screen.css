@@ -791,8 +791,6 @@ iframe {
         padding: 0;
         height: 350px;
         border-radius: 0;
-        background-image: url(../images/jumbotron.jpg);
-        background-size: cover;
     }
 
     .jumbotron.fortags .col-md-4 {
@@ -809,15 +807,13 @@ iframe {
     margin-top: 3rem;
     padding: 0;
     border-radius: 0;
-    background-image: url(../images/jumbotron.jpg);
-    background-size: cover;
 }
 
 .jumbotron.fortags a {
     padding: 5px 10px 7px;
-    background: #222;
+    background: #fff;
     border-radius: 30px;
-    color: #fff;
+    color: #00aae5;
     font-weight: 500;
     text-transform: lowercase;
     font-size: 0.8rem;

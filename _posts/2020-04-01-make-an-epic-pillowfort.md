@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Make an Epic Pillow Fort"
-categories: [ tent, pillowfort, start ]
+categories: [ Tent ]
 image: assets/images/posts/pillowfort.jpg
 featured: true
+hidden: true
 ---
 
 Don't have a tent? Or perfer to campout inside your house? That's great! Let's make an epic pillow fort!
