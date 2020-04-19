@@ -8,7 +8,9 @@ License: https://www.wowthemes.net/freebies-license/
     .container {max-width:80%;}
 }
 .mainheading {
-    padding: 1rem 0rem;
+    padding: 3rem 0rem 2rem 0rem;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 a {
@@ -300,12 +302,27 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand img {
-    max-height: 30px;
+    max-height: 60px;
     margin-right: 5px;
 }
 
-.mainheading h1.sitetitle {
-    font-family: Righteous;
+ .navbar-brand h1.sitetitle, .mainheading h1.sitetitle {
+    font-family: 'Aleo', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.75em;
+    display: inline;
+    vertical-align: middle;
+    color: #00ae58;
+}
+
+@media (max-width:400px) {
+   .navbar-brand h1.sitetitle, .mainheading h1.sitetitle {
+      font-size: 1em;
+   }
+   
+   .mediumnavigation .navbar-brand img {
+      max-height: 30px;
+   }
 }
 
 .mainheading h1.posttitle {

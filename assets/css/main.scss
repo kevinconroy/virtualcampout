@@ -14,8 +14,18 @@
     "starsnonscss"
 ;
 
+h1, h2, h3, h4 {
+	color: #00ae58;
+}
 
-.mainheading h1.sitetitle  {
-	font-family: 'Gochi Hand', cursive;
-	font-size: 4em;
+.other {
+   color: #faa519;
+   color: #00aae5;
+   color: #6e298c;
+   color: #004e99;
+   
+}
+
+strong {
+   font-weight: 700;
 }
