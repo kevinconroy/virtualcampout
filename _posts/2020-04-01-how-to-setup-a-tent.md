@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setup Your Tent in Your Backyard or Living Room"
-categories: [ Tent ]
+categories: [ Tent, Scout Skills ]
 image: assets/images/posts/tent.png
 featured: true
 hidden: true

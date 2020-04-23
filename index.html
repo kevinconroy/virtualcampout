@@ -67,10 +67,14 @@ title: Girl Scouts
 
     <div class="row listrecent">
 
-        {% for post in paginator.posts %}
+        {% for post in site.posts %}
 
-        {% include postbox.html %}
-
+            {% if post.featured == false %}
+            
+               {% include postbox.html %}
+   
+            {% endif %}
+               
         {% endfor %}
 
     </div>
@@ -79,10 +83,11 @@ title: Girl Scouts
 
 <!-- Pagination
 ================================================== -->
+<!-- 
 <div class="bottompagination">
 <div class="pointerup"><i class="fa fa-caret-up"></i></div>
 <span class="navigation" role="navigation">
     {% include pagination.html %}
 </span>
 </div>
-
+-->
