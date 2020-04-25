@@ -1,10 +1,10 @@
 # Site
 name: "Virtual Campout"
 title: "Virtual Campout"
-description: "We may be quaranteed, but we can still have fun!"
+description: "We may be quarantined, but we can still have fun!"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: https://www.virtualcampout.org
+baseurl: 
 google_analytics: 'UA-392776-7'
 disqus: 
 mailchimp-list: 

@@ -20,9 +20,6 @@
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
-</head>
-
-{% if jekyll.environment == 'production' %}
 <!-- change your GA id in _config.yml -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-392776-7"></script>
@@ -33,7 +30,8 @@
 
   gtag('config', {{ site.google_analytics }});
 </script>
-{% endif %}
+
+</head>
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{layout}}">
